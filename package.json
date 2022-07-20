@@ -1,6 +1,6 @@
 {
   "name": "graitor-components",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "author": "jakubzzak <jakub@graitor.dk> (https://jakubzzak.netlify.app/)",
   "contributors": [],
   "description": "United library for Graitor components.",
@@ -25,11 +25,13 @@
     "type": "git",
     "url": "git+https://github.com/Graitor/graitor-components.git"
   },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "dependencies": {
     "chart.js": "^3.6.0",
     "chartjs-plugin-datalabels": "^2.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
